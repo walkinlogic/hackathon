@@ -6,9 +6,9 @@ import React, { useState } from "react";
 const Success = () => {
   return (
     <main className="">
-      <div className="mx-auto mt-8 max-w-6xl relative overflow-x-hidden w-full">
+      <div className="mx-auto mt-20 mb-10 max-w-6xl relative overflow-x-hidden w-full">
         <div className="container container-fluid">
-          <div className="row mt-5 d-flex justify-content-center">
+          <div className="row mt-20 mb-10 d-flex justify-content-center">
             <div className="col-10 col-lg-5 ">
               <h1 className="mb-4">Success</h1>
               <p className="text-gray-950 h-fit max-w-sm">
