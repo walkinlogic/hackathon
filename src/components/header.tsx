@@ -62,7 +62,7 @@ const Header = () => {
                 </Link>
               </div>
               <div className="hidden w-full  ml-6 sm:block  flex items-center">
-                <div className="grid w-full grid-cols-12 justify-evenly ">
+                <div className="grid w-full grid-cols-12 justify-evenly center-item">
                   <div className="col-span-7">
                     <div className="flex mx-auto align-middle  ">
                       {navigation.map((res, i) => {
