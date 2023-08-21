@@ -4,14 +4,6 @@
 import React, { useState } from "react";
 
 const Success = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
-  const submitHandler = async (e: any) => {
-    e.preventDefault();
-  };
-
   return (
     <main className="">
       <div className="my-10">
@@ -30,4 +22,4 @@ const Success = () => {
   );
 };
 
-export default Register;
+export default Success;
